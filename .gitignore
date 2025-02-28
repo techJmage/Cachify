@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/**/bin
+/**/obj
+/CacheApi/faster-cache
+/CacheApi/Properties/PublishProfiles/FolderProfile.pubxml.user
+/CacheApi/Properties/PublishProfiles/IISProfile.pubxml.user
+/CacheApi/Properties/PublishProfiles/Prod.pubxml.user
+/CacheApi/Properties/PublishProfiles/QA.pubxml.user
+/CacheApi/CacheApi.csproj.user

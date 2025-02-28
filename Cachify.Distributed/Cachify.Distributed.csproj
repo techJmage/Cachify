@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Title>Cachify Client (Distirbuted) - Optional Persistence cache</Title>
+	  <Authors>Tech J Mage</Authors>
+	  <PackageProjectUrl>https://github.com/techJmage/Cachify</PackageProjectUrl>
+	  <VersionPrefix>1.0.1</VersionPrefix>
+	  <SignAssembly>False</SignAssembly>
+	  <DelaySign>True</DelaySign>
+	  <AssemblyName>Faster.$(MSBuildProjectName)</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="9.0.2" />
+  </ItemGroup>
+
+</Project>

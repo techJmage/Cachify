@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>AnyCPU;x64</Platforms>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Cachify - Optional Persistence cache</Title>
+		<Authors>Tech J Mage</Authors>
+		<PackageProjectUrl>https://github.com/techJmage/Cachify</PackageProjectUrl>
+		<VersionPrefix>2.2.2</VersionPrefix>
+		<SignAssembly>False</SignAssembly>
+		<DelaySign>True</DelaySign>
+		<AssemblyName>Faster.$(MSBuildProjectName)</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<DebugSymbols>False</DebugSymbols>
+		<DebugType>None</DebugType>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="GroBuf" Version="1.9.2" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.2" />
+		<PackageReference Include="Microsoft.FASTER.Core" Version="2.6.5" />
+		<PackageReference Include="Utility.Disposable" Version="1.1.2" />
+	</ItemGroup>
+</Project>

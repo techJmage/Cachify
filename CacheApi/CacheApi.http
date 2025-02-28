@@ -1,0 +1,11 @@
+@CacheApi_HostAddress = http://localhost:5028
+
+GET {{CacheApi_HostAddress}}/cache/
+Accept: application/octet-stream
+
+###
+
+GET {{CacheApi_HostAddress}}/cache/1
+Accept: application/octet-stream
+
+###
